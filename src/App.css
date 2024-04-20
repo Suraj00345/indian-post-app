@@ -1,0 +1,56 @@
+.input-box {
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius:  4px;
+}
+
+label{
+   padding: 10px;
+   font-size: large;
+
+}
+
+h2{
+  margin: 10px;
+}
+
+.card{
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.filter{
+   width: 450px;
+   margin-left: 20px;
+}
+
+
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #000 #0000;
+  animation: l1 1s infinite;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
